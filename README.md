@@ -8,3 +8,5 @@ Wirtschaftliche Relevanz gewinnt das Projekt durch die hohe Nachfrage bei niedri
 
 Als Hauptperspektive für dieses Projekt wurde Social Computing gewählt, da dieses Projekt ein Serious Game werden soll und dieser Themenbereich ein wichtiger Baustein in diesem Modul ist.
 Die Nebenperspektive ist Visual Computing, da wir visuelle Daten erzeugen wollen und wir diverse Bibliotheken und Frameworks für dieses Projekt benötigen werden.
+
+Sie finden alle Arbeitsinhalte und Ausarbeitungen unserer Auditpräsentationsthemen im Wiki des Repositories.
