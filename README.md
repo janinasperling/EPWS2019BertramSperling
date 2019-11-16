@@ -1,4 +1,4 @@
-# EPWS2019BetramSperling
+# EPWS2019BertramSperling
 
 Vielen Studierenden fällt es schwer für Prüfungen zu lernen und dies auch regelmäßig zu tun. Oft hängt es damit zusammen, dass das Lernen als etwas Unangenehmes und Anstrengendes empfunden wird und nicht wirklich abwechslungsreich gestaltet werden kann.
 
