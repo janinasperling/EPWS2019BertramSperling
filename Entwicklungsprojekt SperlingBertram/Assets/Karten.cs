@@ -1,7 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
-public class Karten : MonoBehaviour {
+public class Karten : MonoBehaviour{
+
     //ArrayList für die Spielkarten
     private Sprite[] grueneFragen;
     private Sprite[] grueneAntworten;
@@ -14,21 +15,21 @@ public class Karten : MonoBehaviour {
     private Sprite[] ereigniskarten;
     private SpriteRenderer rend;
 
-    private void Start () {
+    private void Start (){
 
         // Assign Renderer component
         rend = GetComponent<SpriteRenderer>();
 
         // Karten aus dem Ordner in Array laden 
-        grueneFragen = Resources.LoadAll<Sprite>("GrueneFragen/");
-        grueneAntworten = Resources.LoadAll<Sprite>("GrueneAntworten/");
-        blaueFragen = Resources.LoadAll<Sprite>("BlaueFragen/");
-        blaueAntworten = Resources.LoadAll<Sprite>("BlaueAntworten/");
-        roteFragen = Resources.LoadAll<Sprite>("RoteFragen/");
-        roteAntworten = Resources.LoadAll<Sprite>("RoteAntworten/");
-        schwarzeFragen = Resources.LoadAll<Sprite>("SchwarzeFragen/");
-        schwarzeAntworten = Resources.LoadAll<Sprite>("SchwarzeAntworten/");
-        ereigniskarten = Resources.LoadAll<Sprite>("Ereigniskarten/");
+        grueneFragen = Resources.LoadAll<Sprite>("Karten/GrueneFragen/");
+        grueneAntworten = Resources.LoadAll<Sprite>("Karten/GrueneAntworten/");
+        blaueFragen = Resources.LoadAll<Sprite>("Karten/BlaueFragen/");
+        blaueAntworten = Resources.LoadAll<Sprite>("Karten/BlaueAntworten/");
+        roteFragen = Resources.LoadAll<Sprite>("Karten/RoteFragen/");
+        roteAntworten = Resources.LoadAll<Sprite>("Karten/RoteAntworten/");
+        schwarzeFragen = Resources.LoadAll<Sprite>("Karten/SchwarzeFragen/");
+        schwarzeAntworten = Resources.LoadAll<Sprite>("Karten/SchwarzeAntworten/");
+        ereigniskarten = Resources.LoadAll<Sprite>("Karten/Ereigniskarten/");
 	}
 
     //Frage anzeigen
@@ -46,13 +47,13 @@ public class Karten : MonoBehaviour {
     }
 
     // Bei Mausklick Antwort anzeigen
-    private void OnMouseDown()
-    {
+    private void OnMouseDown(){
+
         StartCoroutine("KarteDrehen");
     }
 
-    private void KarteDrehen(Sprite[] kartenarray, int nummer)
-    {
+    private void KarteDrehen(Sprite[] kartenarray, int nummer){
+
         rend.sprite = kartenarray[nummer];
     }
 }

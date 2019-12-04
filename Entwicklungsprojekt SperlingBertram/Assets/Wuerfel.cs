@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
-public class Wuerfel : MonoBehaviour {
+public class Wuerfel : MonoBehaviour{
 
     // Array für die Seiten des Würfels
     private Sprite[] wuerfelSeiten;
@@ -9,7 +11,7 @@ public class Wuerfel : MonoBehaviour {
     // Reference to sprite renderer to change sprites
     private SpriteRenderer rend;
 
-	private void Start () {
+	private void Start (){
 
         // Assign Renderer component
         rend = GetComponent<SpriteRenderer>();
@@ -19,13 +21,13 @@ public class Wuerfel : MonoBehaviour {
 	}
 	
     // Würfelrollen bei Mausklick starten
-    private void OnMouseDown()
-    {
+    private void OnMouseDown(){
+
         StartCoroutine("Wuerfelrollen");
     }
 
-    private IEnumerator Wuerfelrollen()
-    {
+    private IEnumerator Wuerfelrollen(){
+
         int randomWuerfelSeite = 0;
 
         int finaleSeite = 0;
@@ -34,7 +36,7 @@ public class Wuerfel : MonoBehaviour {
         for (int i = 0; i <= 20; i++)
         {
             // Random Zahl von 0-2 generieren
-            randomWuerfelSeite = Random.Range(0, 2);
+            randomWuerfelSeite = Random.Range(0, 3);
 
             // Set sprite to upper face of dice from array according to random value
             rend.sprite = wuerfelSeiten[randomWuerfelSeite];
