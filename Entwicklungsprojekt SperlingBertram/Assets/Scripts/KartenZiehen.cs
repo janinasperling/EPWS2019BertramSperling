@@ -1,7 +1,9 @@
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Karten : MonoBehaviour{
+public class KartenZiehen : MonoBehaviour{
 
     //ArrayList für die Spielkarten
     private Sprite[] grueneFragen;
@@ -13,14 +15,14 @@ public class Karten : MonoBehaviour{
     private Sprite[] schwarzeFragen;
     private Sprite[] schwarzeAntworten;
     private Sprite[] ereigniskarten;
-    public SpriteRenderer rend;
+    public Image rend;
 
     public GameObject activeBlock;
 
     private void Start (){
 
         // Assign Renderer component
-        rend = GetComponent<SpriteRenderer>();
+       // rend = GetComponent<SpriteRenderer>();
 
         // Karten aus dem Ordner in Array laden 
         grueneFragen = Resources.LoadAll<Sprite>("Karten/GrueneFragen/");
@@ -41,7 +43,12 @@ public class Karten : MonoBehaviour{
 
         if(activeBlock.tag == "gruen"){
             kartenarray = grueneFragen;
-        }else{kartenarray = ereigniskarten;}
+            Debug.Log("Grüne Karte");
+        }else if(activeBlock.tag == "blau"){
+            kartenarray = blaueFragen;
+            Debug.Log("Grüne Karte");}
+        
+        else{kartenarray = ereigniskarten;}
 
         int randomFrage = 0;
 
@@ -49,7 +56,9 @@ public class Karten : MonoBehaviour{
         randomFrage = Random.Range(0, kartenarray.Length);
 
         // Set sprite to upper face of dice from array according to random value
-        rend.sprite = kartenarray[randomFrage];
+        rend.gameObject.SetActive(true);
+        rend.GetComponent<Image>().sprite = kartenarray[randomFrage];
+        
 
         return randomFrage;
     }
@@ -62,7 +71,7 @@ public class Karten : MonoBehaviour{
 
     private void KarteDrehen(Sprite[] kartenarray, int nummer){
 
-        rend.sprite = kartenarray[nummer];
+        //rend.sprite = kartenarray[nummer];
     }
 
     public void ButtonClicked(){

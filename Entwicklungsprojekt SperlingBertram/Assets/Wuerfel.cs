@@ -23,7 +23,7 @@ public class Wuerfel : MonoBehaviour{
     // Würfelrollen bei Mausklick starten
     private void OnMouseDown(){
 
-        StartCoroutine("Wuerfelrollen");
+       StartCoroutine("Wuerfelrollen");
     }
 
     private IEnumerator Wuerfelrollen(){
@@ -50,5 +50,10 @@ public class Wuerfel : MonoBehaviour{
 
         // Finale Zahl in Console ausgeben
         Debug.Log(finaleSeite);
+    }
+
+    public void ButtonClicked(){
+         StartCoroutine("Wuerfelrollen");
+
     }
 }

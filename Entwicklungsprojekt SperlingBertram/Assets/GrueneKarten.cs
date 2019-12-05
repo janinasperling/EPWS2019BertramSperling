@@ -8,6 +8,8 @@ public class GrueneKarten : MonoBehaviour{
     private Sprite[] grueneAntworten;
     private SpriteRenderer rend;
 
+    public KartenZiehen kartenZiehen_script;
+
      private void Start (){
 
         // Assign Renderer component
@@ -24,7 +26,7 @@ public class GrueneKarten : MonoBehaviour{
         StartCoroutine("FrageZeigen");
     }
 
-    private int FrageZeigen(){
+    public int FrageZeigen(){
         int randomFrage = 0;
 
         // Random Zahl von der Kartenmenge generieren
@@ -35,4 +37,9 @@ public class GrueneKarten : MonoBehaviour{
 
         return randomFrage;
     }
+
+    //public void debugGezogeneKarte(){
+      //  kartenZiehen_script.grueneAntwort[kartenZiehen_script.randomFrage];
+        //kartenZiehen_script.ButtonClicked();
+    //}
 }
