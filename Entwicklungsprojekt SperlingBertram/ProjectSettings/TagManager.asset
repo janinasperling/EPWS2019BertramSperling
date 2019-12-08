@@ -6,6 +6,8 @@ TagManager:
   tags:
   - gruen
   - blau
+  - rot
+  - schwarz
   layers:
   - Default
   - TransparentFX
