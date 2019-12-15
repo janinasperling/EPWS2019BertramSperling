@@ -5,12 +5,16 @@ using UnityEngine.UI;
 
 public class AntwortAnzeigen : MonoBehaviour
 {
-    public GameObject activeBlock;
-    public KartenZiehen skript;
+    //public GameObject activeBlock;
+    public KartenZiehen kartenZiehen_skript;
     public Image rend;
+    public Image wuerfel;
+    public PlayerMovement playerMovement_skript;
+    
     void Start()
     {
-        skript = GetComponent<KartenZiehen>();
+        kartenZiehen_skript = GetComponent<KartenZiehen>();
+        playerMovement_skript = GetComponent<PlayerMovement>();
     }
 
     int[] loesungsarray = new int [] {1, 2, 3, 1};
@@ -19,11 +23,11 @@ public class AntwortAnzeigen : MonoBehaviour
 
     public string KartenarrayBestimmen(){
 
-        if(activeBlock.tag == "gruen"){
+        if(playerMovement_skript.currentTile.tag == "gruen"){
             kartenarray = "GrueneAntworten";}
-            else if(activeBlock.tag == "blau"){
+            else if(playerMovement_skript.currentTile.tag == "blau"){
                 kartenarray = "BlaueAntworten";}
-                else if(activeBlock.tag == "rot"){
+                else if(playerMovement_skript.currentTile.tag == "rot"){
                     kartenarray = "RoteAntworten";}
         else{kartenarray = "SchwarzeAntworten";}
 
@@ -34,39 +38,46 @@ public class AntwortAnzeigen : MonoBehaviour
         
         string bestimmtesKartenarray = KartenarrayBestimmen();
 
-        int randomZahl = skript.randomFrage+1;
+        int randomZahl = kartenZiehen_skript.randomFrage+1;
 
-        if (loesungsarray[skript.randomFrage] == 1){
+        if (loesungsarray[kartenZiehen_skript.randomFrage] == 1){
             rend.gameObject.SetActive(true);
-        rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
+            rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
+            wuerfel.gameObject.SetActive(true);
         }
         else{rend.gameObject.SetActive(true);
-        rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
+            rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
     }
 
     public void ButtonMitte() {
          string bestimmtesKartenarray = KartenarrayBestimmen();
 
-        int randomZahl = skript.randomFrage+1;
+        int randomZahl = kartenZiehen_skript.randomFrage+1;
 
-        if (loesungsarray[skript.randomFrage] == 2){
+        if (loesungsarray[kartenZiehen_skript.randomFrage] == 2){
             rend.gameObject.SetActive(true);
-        rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
+            rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
+            wuerfel.gameObject.SetActive(true);
         }
         else{rend.gameObject.SetActive(true);
-        rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
+            rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
     }
 
     public void ButtonUnten() {
          string bestimmtesKartenarray = KartenarrayBestimmen();
 
-        int randomZahl = skript.randomFrage+1;
+        int randomZahl = kartenZiehen_skript.randomFrage+1;
 
-        if (loesungsarray[skript.randomFrage] == 3){
+        if (loesungsarray[kartenZiehen_skript.randomFrage] == 3){
             rend.gameObject.SetActive(true);
-        rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
+            rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
+            wuerfel.gameObject.SetActive(true);
         }
         else{rend.gameObject.SetActive(true);
-        rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
+            rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
+    }
+
+      public void KartenansichtVerlassen() {
+        rend.gameObject.SetActive(false);
     }
 }

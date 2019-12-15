@@ -12,8 +12,9 @@ public class KartenZiehen : MonoBehaviour{
     private Sprite[] schwarzeFragen;
     private Sprite[] ereigniskarten;
     public Image rend;
-    public GameObject activeBlock;
     public int randomFrage = 0;
+
+    public PlayerMovement playerMovement_skript;
 
 
     private void Start (){
@@ -34,13 +35,13 @@ public class KartenZiehen : MonoBehaviour{
         Sprite[] kartenarray;
 
         //aktives Kartenarray bestimmen
-        if(activeBlock.tag == "gruen"){
+        if(playerMovement_skript.currentTile.tag == "gruen"){
             kartenarray = grueneFragen;}
-            else if(activeBlock.tag == "blau"){
+            else if(playerMovement_skript.currentTile.tag == "blau"){
                 kartenarray = blaueFragen;}
-                else if(activeBlock.tag == "rot"){
+                else if(playerMovement_skript.currentTile.tag == "rot"){
                     kartenarray = roteFragen;}
-                    else if(activeBlock.tag == "schwarz"){
+                    else if(playerMovement_skript.currentTile.tag == "schwarz"){
                         kartenarray = schwarzeFragen;}
         else{kartenarray = ereigniskarten;}
 

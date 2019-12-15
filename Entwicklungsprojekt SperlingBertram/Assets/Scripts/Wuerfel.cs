@@ -10,8 +10,11 @@ public class Wuerfel : MonoBehaviour{
 
     // Reference to sprite renderer to change sprites
     private SpriteRenderer rend;
+    public int finaleSeite = 0;
 
-	private void Start (){
+    public PlayerMovement playerMovement_skript;
+
+    private void Start (){
 
         // Assign Renderer component
         rend = GetComponent<SpriteRenderer>();
@@ -30,7 +33,6 @@ public class Wuerfel : MonoBehaviour{
 
         int randomWuerfelSeite = 0;
 
-        int finaleSeite = 0;
 
         // 20 Wiederholungen, bevor de finale Seite angezeigt wird
         for (int i = 0; i <= 20; i++)
@@ -48,8 +50,7 @@ public class Wuerfel : MonoBehaviour{
         // Finale Seite für Player Movement bestimmen
         finaleSeite = randomWuerfelSeite + 1;
 
-        // Finale Zahl in Console ausgeben
-        Debug.Log(finaleSeite);
+        playerMovement_skript.MovePlayer(finaleSeite);
     }
 
     public void ButtonClicked(){
