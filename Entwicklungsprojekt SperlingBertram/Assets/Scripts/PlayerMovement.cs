@@ -12,40 +12,38 @@ public class PlayerMovement : MonoBehaviour
     public Tile tileArray;
     public Image wuerfel;
 
-
+    // Zu Beginn des Spiels wird einmalig der currentTile gleich der Startposition gesetzt
     void Awake() {
        currentTile = startingTile;
-   }
+    }
 
-   void Start() {
-   tileArray = startingTile.GetComponent<Tile>();
-   }
-
+    void Start() {
+        tileArray = startingTile.GetComponent<Tile>();
+    }
 
     public void MovePlayer(int moves){
-           //currentTile = tileArray.NextTile[0];
+           
+        // currentTile gemäß der Würfelanzahl verändern
         while(moves > 0){
             if(tileArray.NextTile.Length > 1){
-                // parent object für buttons (pfeile) set object true
+                //Funktion zur Auswahl der Route muss noch eingefügt werden
             }
             else {currentTile = tileArray.NextTile[0];
             tileArray = currentTile.GetComponent<Tile>();
-            Debug.Log(moves);
             }
             moves--;
         }
+        // aktuelle Position des Spielers auf Position des neuen Cubes setzen
         spielerObject.transform.position = currentTile.gameObject.transform.position;
         spielerObject.transform.position = new Vector3(spielerObject.transform.position.x, spielerObject.transform.position.y + 0.8f, spielerObject.transform.position.z);
-        //new WaitForSeconds(0.9f);
-        //wuerfel.gameObject.SetActive(false);
+        
         StartCoroutine("WuerfelSchliessen");
     }
 
-private IEnumerator WuerfelSchliessen() {
-    Debug.Log("wuerfel");
-    yield return new WaitForSeconds(0.9f);
-    wuerfel.gameObject.SetActive(false);
+    //0,9 Sekunden warten, bevor der Würfel deaktiviert wird
+    private IEnumerator WuerfelSchliessen() {
 
-}
-
+        yield return new WaitForSeconds(0.9f);
+        wuerfel.gameObject.SetActive(false);
+    }
 }

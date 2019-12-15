@@ -7,25 +7,20 @@ public class Wuerfel : MonoBehaviour{
 
     // Array für die Seiten des Würfels
     private Sprite[] wuerfelSeiten;
-
-    // Reference to sprite renderer to change sprites
     private SpriteRenderer rend;
     public int finaleSeite = 0;
-
     public PlayerMovement playerMovement_skript;
 
     private void Start (){
 
-        // Assign Renderer component
         rend = GetComponent<SpriteRenderer>();
 
-        // Seiten aus dem Odner in Array laden 
+        // Seiten aus dem Ordner in Array laden 
         wuerfelSeiten = Resources.LoadAll<Sprite>("WuerfelSeiten/");
 	}
 	
     // Würfelrollen bei Mausklick starten
     private void OnMouseDown(){
-
        StartCoroutine("Wuerfelrollen");
     }
 
@@ -33,14 +28,13 @@ public class Wuerfel : MonoBehaviour{
 
         int randomWuerfelSeite = 0;
 
-
         // 20 Wiederholungen, bevor de finale Seite angezeigt wird
         for (int i = 0; i <= 20; i++)
         {
-            // Random Zahl von 0-2 generieren
+            // Random Zahl generieren
             randomWuerfelSeite = Random.Range(0, 3);
 
-            // Set sprite to upper face of dice from array according to random value
+            // Sprite entsprechend der Würfelseite setzen
             rend.sprite = wuerfelSeiten[randomWuerfelSeite];
 
             // Pause vor der nächsten Iteration
@@ -51,10 +45,5 @@ public class Wuerfel : MonoBehaviour{
         finaleSeite = randomWuerfelSeite + 1;
 
         playerMovement_skript.MovePlayer(finaleSeite);
-    }
-
-    public void ButtonClicked(){
-         StartCoroutine("Wuerfelrollen");
-
     }
 }
