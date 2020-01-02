@@ -219,6 +219,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &62769060
 GameObject:
   m_ObjectHideFlags: 0
@@ -326,6 +331,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &77012933
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,7 +351,7 @@ GameObject:
   - component: {fileID: 77012938}
   m_Layer: 0
   m_Name: Cube - Visual (75)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -434,6 +444,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &86747508
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,6 +556,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &126472076
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,7 +576,7 @@ GameObject:
   - component: {fileID: 126472081}
   m_Layer: 0
   m_Name: Cube - Visual (172)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -648,6 +668,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &127027918
 GameObject:
   m_ObjectHideFlags: 0
@@ -755,6 +780,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &133844942
 GameObject:
   m_ObjectHideFlags: 0
@@ -860,6 +890,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &136358784
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,7 +1000,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile:
-  - {fileID: 896074955}
+  - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &198267278
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,6 +1111,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &213714880
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,6 +1221,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &225491476
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,7 +1241,7 @@ GameObject:
   - component: {fileID: 225491481}
   m_Layer: 0
   m_Name: Cube - Visual (170)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1283,6 +1333,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &226033547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1390,6 +1445,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &239728716
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,6 +1557,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &246896126
 GameObject:
   m_ObjectHideFlags: 0
@@ -1513,7 +1578,7 @@ GameObject:
   - component: {fileID: 246896132}
   m_Layer: 0
   m_Name: Cube - Visual (97)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1606,6 +1671,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!114 &246896132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1621,6 +1691,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &269963400
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,6 +1801,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &275117009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1833,6 +1913,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &288913989
 GameObject:
   m_ObjectHideFlags: 0
@@ -2017,6 +2102,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &362088653
 GameObject:
   m_ObjectHideFlags: 0
@@ -2032,7 +2122,7 @@ GameObject:
   - component: {fileID: 362088658}
   m_Layer: 0
   m_Name: Cube - Visual (39)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2097,7 +2187,7 @@ BoxCollider:
   m_GameObject: {fileID: 362088653}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -2122,9 +2212,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 754716830}
+  - {fileID: 1112626830}
+  - {fileID: 1059018867}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 362088653}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &363593666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,6 +2327,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &364515607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2414,6 +2514,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &372692871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,7 +2534,7 @@ GameObject:
   - component: {fileID: 372692876}
   m_Layer: 0
   m_Name: Cube - Visual (215)
-  m_TagString: Untagged
+  m_TagString: schwarz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2522,6 +2627,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &385268359
 GameObject:
   m_ObjectHideFlags: 0
@@ -2628,6 +2738,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &387332353
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,6 +2850,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &401197792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2875,7 +2995,7 @@ GameObject:
   - component: {fileID: 413309908}
   m_Layer: 0
   m_Name: Cube - Visual (190)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2968,6 +3088,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &418027741
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,6 +3198,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &436633543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3180,6 +3310,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &440465473
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,6 +3496,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &451197404
 GameObject:
   m_ObjectHideFlags: 0
@@ -3466,6 +3606,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &463720314
 GameObject:
   m_ObjectHideFlags: 0
@@ -3571,6 +3716,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &465569205
 GameObject:
   m_ObjectHideFlags: 0
@@ -3678,6 +3828,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &471562851
 GameObject:
   m_ObjectHideFlags: 0
@@ -3785,6 +3940,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &478373085
 GameObject:
   m_ObjectHideFlags: 0
@@ -3890,6 +4050,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &479572923
 GameObject:
   m_ObjectHideFlags: 0
@@ -3995,6 +4160,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &506969128
 GameObject:
   m_ObjectHideFlags: 0
@@ -4100,6 +4270,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &512853027
 GameObject:
   m_ObjectHideFlags: 0
@@ -4115,7 +4290,7 @@ GameObject:
   - component: {fileID: 512853032}
   m_Layer: 0
   m_Name: Cube - Visual (103)
-  m_TagString: Untagged
+  m_TagString: blau
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4207,6 +4382,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -4369,7 +4549,7 @@ BoxCollider:
   m_GameObject: {fileID: 526976943}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -4395,6 +4575,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 1193199490}
+  - {fileID: 1112626830}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 526976943}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &531908276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4515,9 +4701,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingTile: {fileID: 0}
   currentTile: {fileID: 0}
+  checkTile: {fileID: 0}
   spielerObject: {fileID: 0}
   tileArray: {fileID: 0}
+  test: {fileID: 0}
   wuerfel: {fileID: 0}
+  gewuenschtesFeld: 0
+  action1: 0
 --- !u!1 &548008011
 GameObject:
   m_ObjectHideFlags: 0
@@ -4623,6 +4813,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &553805541
 GameObject:
   m_ObjectHideFlags: 0
@@ -4730,6 +4925,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &555668316
 GameObject:
   m_ObjectHideFlags: 0
@@ -4837,6 +5037,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &562526507
 GameObject:
   m_ObjectHideFlags: 0
@@ -4852,7 +5057,7 @@ GameObject:
   - component: {fileID: 562526512}
   m_Layer: 0
   m_Name: Cube - Visual (195)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4944,6 +5149,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &569437298
 GameObject:
   m_ObjectHideFlags: 0
@@ -5051,6 +5261,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &573771135
 GameObject:
   m_ObjectHideFlags: 0
@@ -5156,6 +5371,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &577609772
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,7 +5391,7 @@ GameObject:
   - component: {fileID: 577609777}
   m_Layer: 0
   m_Name: Cube - Visual (101)
-  m_TagString: Untagged
+  m_TagString: blau
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5264,6 +5484,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &627089462
 GameObject:
   m_ObjectHideFlags: 0
@@ -5471,6 +5696,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &636735047
 GameObject:
   m_ObjectHideFlags: 0
@@ -5576,6 +5806,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &642488598
 GameObject:
   m_ObjectHideFlags: 0
@@ -5591,7 +5826,7 @@ GameObject:
   - component: {fileID: 642488603}
   m_Layer: 0
   m_Name: Cube - Visual (117)
-  m_TagString: Untagged
+  m_TagString: blau
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5683,6 +5918,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &643843457
 GameObject:
   m_ObjectHideFlags: 0
@@ -5698,7 +5938,7 @@ GameObject:
   - component: {fileID: 643843462}
   m_Layer: 0
   m_Name: Cube - Visual (150)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5789,6 +6029,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &675113004
 GameObject:
   m_ObjectHideFlags: 0
@@ -5894,6 +6139,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &680971948
 GameObject:
   m_ObjectHideFlags: 0
@@ -6002,6 +6252,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &721943286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6109,6 +6364,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &754716830
 GameObject:
   m_ObjectHideFlags: 0
@@ -6189,7 +6449,7 @@ BoxCollider:
   m_GameObject: {fileID: 754716830}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -6214,7 +6474,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile:
-  - {fileID: 136358784}
+  - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &765702506
 GameObject:
   m_ObjectHideFlags: 0
@@ -6230,7 +6495,7 @@ GameObject:
   - component: {fileID: 765702511}
   m_Layer: 0
   m_Name: Cube - Visual (113)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6323,6 +6588,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &766752738
 GameObject:
   m_ObjectHideFlags: 0
@@ -6428,6 +6698,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &790914424
 GameObject:
   m_ObjectHideFlags: 0
@@ -6535,6 +6810,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &804203324
 GameObject:
   m_ObjectHideFlags: 0
@@ -6642,6 +6922,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &804920467
 GameObject:
   m_ObjectHideFlags: 0
@@ -6749,6 +7034,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &822006955
 GameObject:
   m_ObjectHideFlags: 0
@@ -6764,7 +7054,7 @@ GameObject:
   - component: {fileID: 822006960}
   m_Layer: 0
   m_Name: Cube - Visual (131)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6856,6 +7146,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &831811459
 GameObject:
   m_ObjectHideFlags: 0
@@ -6871,7 +7166,7 @@ GameObject:
   - component: {fileID: 831811464}
   m_Layer: 0
   m_Name: Cube - Visual (79)
-  m_TagString: Untagged
+  m_TagString: blau
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6964,6 +7259,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &832295493
 GameObject:
   m_ObjectHideFlags: 0
@@ -7071,6 +7371,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &864696401
 GameObject:
   m_ObjectHideFlags: 0
@@ -7178,6 +7483,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &886182487
 GameObject:
   m_ObjectHideFlags: 0
@@ -7286,6 +7596,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &895454437
 GameObject:
   m_ObjectHideFlags: 0
@@ -7393,6 +7708,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &896074955
 GameObject:
   m_ObjectHideFlags: 0
@@ -7498,7 +7818,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile:
-  - {fileID: 832295493}
+  - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &906817535
 GameObject:
   m_ObjectHideFlags: 0
@@ -7606,6 +7931,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &911428313
 GameObject:
   m_ObjectHideFlags: 0
@@ -7621,7 +7951,7 @@ GameObject:
   - component: {fileID: 911428318}
   m_Layer: 0
   m_Name: Cube - Visual (216)
-  m_TagString: Untagged
+  m_TagString: schwarz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7713,6 +8043,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &915372756
 GameObject:
   m_ObjectHideFlags: 0
@@ -7820,6 +8155,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &934933691
 GameObject:
   m_ObjectHideFlags: 0
@@ -7835,7 +8175,7 @@ GameObject:
   - component: {fileID: 934933696}
   m_Layer: 0
   m_Name: Cube - Visual (73)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7928,6 +8268,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &945800715
 GameObject:
   m_ObjectHideFlags: 0
@@ -8035,6 +8380,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1045435384
 GameObject:
   m_ObjectHideFlags: 0
@@ -8115,7 +8465,7 @@ BoxCollider:
   m_GameObject: {fileID: 1045435384}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8140,7 +8490,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile:
+  - {fileID: 1193199490}
   - {fileID: 754716830}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 1045435384}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &1059018867
 GameObject:
   m_ObjectHideFlags: 0
@@ -8156,7 +8512,7 @@ GameObject:
   - component: {fileID: 1059018872}
   m_Layer: 0
   m_Name: Cube - Visual (53)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8249,6 +8605,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &1085026205
 GameObject:
   m_ObjectHideFlags: 0
@@ -8354,6 +8715,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1091682506
 GameObject:
   m_ObjectHideFlags: 0
@@ -8459,6 +8825,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1111419565
 GameObject:
   m_ObjectHideFlags: 0
@@ -8566,6 +8937,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1112626830
 GameObject:
   m_ObjectHideFlags: 0
@@ -8581,7 +8957,7 @@ GameObject:
   - component: {fileID: 1112626835}
   m_Layer: 0
   m_Name: Cube - Visual (37)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8646,7 +9022,7 @@ BoxCollider:
   m_GameObject: {fileID: 1112626830}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -8671,9 +9047,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 526976943}
+  - {fileID: 362088653}
+  - {fileID: 1323417438}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 1112626830}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &1114744044
 GameObject:
   m_ObjectHideFlags: 0
@@ -8779,6 +9160,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1128647659
 GameObject:
   m_ObjectHideFlags: 0
@@ -8886,6 +9272,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1134776542
 GameObject:
   m_ObjectHideFlags: 0
@@ -8993,6 +9384,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1169952544
 GameObject:
   m_ObjectHideFlags: 0
@@ -9098,6 +9494,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1185092907
 GameObject:
   m_ObjectHideFlags: 0
@@ -9205,6 +9606,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1193199490
 GameObject:
   m_ObjectHideFlags: 0
@@ -9285,7 +9691,7 @@ BoxCollider:
   m_GameObject: {fileID: 1193199490}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -9311,6 +9717,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 1045435384}
+  - {fileID: 526976943}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 1193199490}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &1196061199
 GameObject:
   m_ObjectHideFlags: 0
@@ -9416,6 +9828,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1201904919
 GameObject:
   m_ObjectHideFlags: 0
@@ -9523,6 +9940,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1246232495
 GameObject:
   m_ObjectHideFlags: 0
@@ -9538,7 +9960,7 @@ GameObject:
   - component: {fileID: 1246232500}
   m_Layer: 0
   m_Name: Cube - Visual (166)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9631,6 +10053,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1251125418
 GameObject:
   m_ObjectHideFlags: 0
@@ -9738,6 +10165,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1251825000
 GameObject:
   m_ObjectHideFlags: 0
@@ -9845,6 +10277,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1253753454
 GameObject:
   m_ObjectHideFlags: 0
@@ -9860,7 +10297,7 @@ GameObject:
   - component: {fileID: 1253753459}
   m_Layer: 0
   m_Name: Cube - Visual (192)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9952,6 +10389,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1261485068
 GameObject:
   m_ObjectHideFlags: 0
@@ -10059,6 +10501,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1262131257
 GameObject:
   m_ObjectHideFlags: 0
@@ -10166,6 +10613,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1277639301
 GameObject:
   m_ObjectHideFlags: 0
@@ -10255,6 +10707,7 @@ GameObject:
   - component: {fileID: 1292743286}
   - component: {fileID: 1292743283}
   - component: {fileID: 1292743285}
+  - component: {fileID: 1292743287}
   m_Layer: 0
   m_Name: SkriptKarte
   m_TagString: Untagged
@@ -10309,9 +10762,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingTile: {fileID: 1421293669}
   currentTile: {fileID: 0}
+  checkTile: {fileID: 0}
   spielerObject: {fileID: 531908276}
   tileArray: {fileID: 0}
+  test: {fileID: 0}
   wuerfel: {fileID: 1545843470}
+  gewuenschtesFeld: 0
+  action1: 0
 --- !u!114 &1292743286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10330,6 +10787,24 @@ MonoBehaviour:
   button1: {fileID: 1414924430}
   button2: {fileID: 401197792}
   button3: {fileID: 1748920324}
+--- !u!114 &1292743287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292743282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef8c039ad4752e9448c44545bd198b48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &1298965762
 GameObject:
   m_ObjectHideFlags: 0
@@ -10435,6 +10910,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1323417438
 GameObject:
   m_ObjectHideFlags: 0
@@ -10450,7 +10930,7 @@ GameObject:
   - component: {fileID: 1323417443}
   m_Layer: 0
   m_Name: Cube - Visual (51)
-  m_TagString: blau
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10543,6 +11023,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &1337468305
 GameObject:
   m_ObjectHideFlags: 0
@@ -10648,6 +11133,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1350648896
 GameObject:
   m_ObjectHideFlags: 0
@@ -10753,6 +11243,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1351026187
 GameObject:
   m_ObjectHideFlags: 0
@@ -10768,7 +11263,7 @@ GameObject:
   - component: {fileID: 1351026192}
   m_Layer: 0
   m_Name: Cube - Visual (55)
-  m_TagString: Untagged
+  m_TagString: blau
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10861,6 +11356,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1364901475
 GameObject:
   m_ObjectHideFlags: 0
@@ -10968,6 +11468,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1377482277
 GameObject:
   m_ObjectHideFlags: 0
@@ -11073,6 +11578,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1392834236
 GameObject:
   m_ObjectHideFlags: 0
@@ -11178,6 +11688,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1393639911
 GameObject:
   m_ObjectHideFlags: 0
@@ -11283,6 +11798,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1395355486
 GameObject:
   m_ObjectHideFlags: 0
@@ -11388,6 +11908,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1414924430
 GameObject:
   m_ObjectHideFlags: 0
@@ -11593,7 +12118,7 @@ BoxCollider:
   m_GameObject: {fileID: 1421293669}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -11619,6 +12144,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 526976943}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 1421293669}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 1292743285}
 --- !u!1 &1422289998
 GameObject:
   m_ObjectHideFlags: 0
@@ -11726,6 +12256,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1431110715
 GameObject:
   m_ObjectHideFlags: 0
@@ -11979,6 +12514,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1474773675
 GameObject:
   m_ObjectHideFlags: 0
@@ -11994,7 +12534,7 @@ GameObject:
   - component: {fileID: 1474773680}
   m_Layer: 0
   m_Name: Cube - Visual (115)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12087,6 +12627,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1505033265
 GameObject:
   m_ObjectHideFlags: 0
@@ -12192,6 +12737,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1511158594
 GameObject:
   m_ObjectHideFlags: 0
@@ -12299,6 +12849,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1522681894
 GameObject:
   m_ObjectHideFlags: 0
@@ -12406,6 +12961,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1523578643
 GameObject:
   m_ObjectHideFlags: 0
@@ -12421,7 +12981,7 @@ GameObject:
   - component: {fileID: 1523578648}
   m_Layer: 0
   m_Name: Cube - Visual (146)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12512,6 +13072,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1527107655
 GameObject:
   m_ObjectHideFlags: 0
@@ -12617,6 +13182,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1537793199
 GameObject:
   m_ObjectHideFlags: 0
@@ -12951,6 +13521,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1562991300
 GameObject:
   m_ObjectHideFlags: 0
@@ -12966,7 +13541,7 @@ GameObject:
   - component: {fileID: 1562991305}
   m_Layer: 0
   m_Name: Cube - Visual (99)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13059,6 +13634,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1576492039
 GameObject:
   m_ObjectHideFlags: 0
@@ -13166,6 +13746,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1583169138
 GameObject:
   m_ObjectHideFlags: 0
@@ -13271,6 +13856,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1589001313
 GameObject:
   m_ObjectHideFlags: 0
@@ -13447,6 +14037,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1644625411
 GameObject:
   m_ObjectHideFlags: 0
@@ -13554,6 +14149,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1664577591
 GameObject:
   m_ObjectHideFlags: 0
@@ -13569,7 +14169,7 @@ GameObject:
   - component: {fileID: 1664577596}
   m_Layer: 0
   m_Name: Cube - Visual (65)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13662,6 +14262,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1672926080
 GameObject:
   m_ObjectHideFlags: 0
@@ -13769,6 +14374,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1673486543
 GameObject:
   m_ObjectHideFlags: 0
@@ -13874,6 +14484,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1678087946
 GameObject:
   m_ObjectHideFlags: 0
@@ -14047,6 +14662,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1696685641
 GameObject:
   m_ObjectHideFlags: 0
@@ -14062,7 +14682,7 @@ GameObject:
   - component: {fileID: 1696685646}
   m_Layer: 0
   m_Name: Cube - Visual (164)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14154,6 +14774,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1711013157
 GameObject:
   m_ObjectHideFlags: 0
@@ -14261,6 +14886,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1720054042
 GameObject:
   m_ObjectHideFlags: 0
@@ -14366,6 +14996,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1748920324
 GameObject:
   m_ObjectHideFlags: 0
@@ -14598,6 +15233,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1750063894
 GameObject:
   m_ObjectHideFlags: 0
@@ -14705,6 +15345,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1762340441
 GameObject:
   m_ObjectHideFlags: 0
@@ -14812,6 +15457,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1785011317
 GameObject:
   m_ObjectHideFlags: 0
@@ -14917,6 +15567,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1786518519
 GameObject:
   m_ObjectHideFlags: 0
@@ -15022,6 +15677,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1789222242
 GameObject:
   m_ObjectHideFlags: 0
@@ -15303,6 +15963,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1875892259
 GameObject:
   m_ObjectHideFlags: 0
@@ -15410,6 +16075,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1875954501
 GameObject:
   m_ObjectHideFlags: 0
@@ -15425,7 +16095,7 @@ GameObject:
   - component: {fileID: 1875954506}
   m_Layer: 0
   m_Name: Cube - Visual (142)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15516,6 +16186,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1885984564
 GameObject:
   m_ObjectHideFlags: 0
@@ -15623,6 +16298,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1886540505
 GameObject:
   m_ObjectHideFlags: 0
@@ -15730,6 +16410,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1890647762
 GameObject:
   m_ObjectHideFlags: 0
@@ -15837,6 +16522,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1894417725
 GameObject:
   m_ObjectHideFlags: 0
@@ -16034,6 +16724,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1899783088
 GameObject:
   m_ObjectHideFlags: 0
@@ -16141,6 +16836,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1910684125
 GameObject:
   m_ObjectHideFlags: 0
@@ -16248,6 +16948,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1914529389
 GameObject:
   m_ObjectHideFlags: 0
@@ -16535,6 +17240,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1963577443
 GameObject:
   m_ObjectHideFlags: 0
@@ -16640,6 +17350,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1968529609
 GameObject:
   m_ObjectHideFlags: 0
@@ -16745,6 +17460,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1984797313
 GameObject:
   m_ObjectHideFlags: 0
@@ -16850,6 +17570,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1999098604
 GameObject:
   m_ObjectHideFlags: 0
@@ -16865,7 +17590,7 @@ GameObject:
   - component: {fileID: 1999098609}
   m_Layer: 0
   m_Name: Cube - Visual (213)
-  m_TagString: Untagged
+  m_TagString: schwarz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16957,6 +17682,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1999536808
 GameObject:
   m_ObjectHideFlags: 0
@@ -16972,7 +17702,7 @@ GameObject:
   - component: {fileID: 1999536813}
   m_Layer: 0
   m_Name: Cube - Visual (129)
-  m_TagString: Untagged
+  m_TagString: gruen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17064,6 +17794,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2019529955
 GameObject:
   m_ObjectHideFlags: 0
@@ -17079,7 +17814,7 @@ GameObject:
   - component: {fileID: 2019529960}
   m_Layer: 0
   m_Name: Cube - Visual (77)
-  m_TagString: Untagged
+  m_TagString: blau
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17172,6 +17907,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2030084487
 GameObject:
   m_ObjectHideFlags: 0
@@ -17187,7 +17927,7 @@ GameObject:
   - component: {fileID: 2030084492}
   m_Layer: 0
   m_Name: Cube - Visual (221)
-  m_TagString: Untagged
+  m_TagString: schwarz
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17278,6 +18018,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NextTile:
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2036852571
 GameObject:
   m_ObjectHideFlags: 0
@@ -17383,6 +18128,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2046432558
 GameObject:
   m_ObjectHideFlags: 0
@@ -17398,7 +18148,7 @@ GameObject:
   - component: {fileID: 2046432563}
   m_Layer: 0
   m_Name: Cube - Visual (186)
-  m_TagString: Untagged
+  m_TagString: rot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17491,6 +18241,11 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2047791605
 GameObject:
   m_ObjectHideFlags: 0
@@ -17598,6 +18353,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2063538672
 GameObject:
   m_ObjectHideFlags: 0
@@ -17703,6 +18463,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2066363886
 GameObject:
   m_ObjectHideFlags: 0
@@ -17808,6 +18573,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2102029735
 GameObject:
   m_ObjectHideFlags: 0
@@ -17913,6 +18683,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2104605157
 GameObject:
   m_ObjectHideFlags: 0
@@ -18020,6 +18795,11 @@ MonoBehaviour:
   NextTile:
   - {fileID: 0}
   - {fileID: 0}
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2114551278
 GameObject:
   m_ObjectHideFlags: 0
@@ -18250,6 +19030,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &2140350872
 GameObject:
   m_ObjectHideFlags: 0
@@ -18355,3 +19140,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextTile: []
+  boxCollider: {fileID: 0}
+  newTile: {fileID: 0}
+  objektname: 
+  action: 0
+  playerMovement_skript: {fileID: 0}

@@ -29,8 +29,7 @@ public class Wuerfel : MonoBehaviour{
         int randomWuerfelSeite = 0;
 
         // 20 Wiederholungen, bevor de finale Seite angezeigt wird
-        for (int i = 0; i <= 20; i++)
-        {
+        for (int i = 0; i <= 20; i++) {
             // Random Zahl generieren
             randomWuerfelSeite = Random.Range(0, 3);
 
