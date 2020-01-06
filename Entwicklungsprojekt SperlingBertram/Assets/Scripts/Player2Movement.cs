@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour
+public class Player2Movement : MonoBehaviour
 {
     
     public GameObject startingTile; 
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public int action1;
     public Wuerfel wuerfel_skript;
     public int actualplayer;
-  
+    
 
     // Zu Beginn des Spiels wird einmalig der currentTile gleich der Startposition gesetzt
     void Awake() {
@@ -34,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
 
     public IEnumerator Move(int moves){
 
+     
         // schleife wird gemäß der Würfelzahl durchlaufen 
         for (int i = moves; i > 0; i--) {
               
@@ -65,6 +66,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
     StartCoroutine("WuerfelSchliessen");
+
     }
 
     //0,9 Sekunden warten, bevor der Würfel deaktiviert wird
@@ -73,4 +75,5 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.9f);
         wuerfel.gameObject.SetActive(false);
     }
+    
 }
