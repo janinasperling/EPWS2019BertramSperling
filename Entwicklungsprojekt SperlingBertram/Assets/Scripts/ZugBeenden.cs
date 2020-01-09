@@ -2,18 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ZugBeenden : MonoBehaviour
-{
+public class ZugBeenden : MonoBehaviour {
     public int actualplayer=1;
+    public int spieler = 2;
     
     public void OnMouseDown(){
-        if(actualplayer ==2){
-            actualplayer =1;
+        if(actualplayer != spieler){
+            actualplayer++;
         }
-        else{ actualplayer++;}
+        else{actualplayer = 1;}
+        Debug.Log(actualplayer);
        } 
-       
-    
 }
     
     

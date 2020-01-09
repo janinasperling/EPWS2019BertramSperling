@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AntwortAnzeigen : MonoBehaviour
-{
+public class AntwortAnzeigen : MonoBehaviour {
+
     public KartenZiehen kartenZiehen_skript;
     public PlayerMovement playerMovement_skript;
+    public ZugBeenden zugBeenden_skript;
     public Image rend;
     public Image wuerfel;
     public GameObject button1;
     public GameObject button2;
     public GameObject button3;
-
+    public GameObject buttonKarteVerlassen;
     
     void Start(){
         kartenZiehen_skript = GetComponent<KartenZiehen>();
@@ -23,8 +24,9 @@ public class AntwortAnzeigen : MonoBehaviour
     string kartenarray;
     int[] loesungsarray = new int [] {1, 2, 3, 1};
     
-
     public string KartenarrayBestimmen(){
+
+        playerMovement_skript = GameObject.Find("Player"+zugBeenden_skript.actualplayer).GetComponent<PlayerMovement>();
 
         // String für Karten abhängig von Tag des aktuellen Cubes bestimmen
         if(playerMovement_skript.currentTile.tag == "gruen"){
@@ -55,6 +57,7 @@ public class AntwortAnzeigen : MonoBehaviour
         else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
 
         ButtonsDeaktivieren();
+        buttonKarteVerlassen.gameObject.SetActive(true);
     }
 
     public void ButtonMitte() {
@@ -69,6 +72,7 @@ public class AntwortAnzeigen : MonoBehaviour
         else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
 
         ButtonsDeaktivieren();
+        buttonKarteVerlassen.gameObject.SetActive(true);
     }
 
     public void ButtonUnten() {
@@ -83,6 +87,7 @@ public class AntwortAnzeigen : MonoBehaviour
         else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
 
         ButtonsDeaktivieren();
+        buttonKarteVerlassen.gameObject.SetActive(true);
     }
 
     // Buttons für Antwortmöglichkeiten deaktivieren

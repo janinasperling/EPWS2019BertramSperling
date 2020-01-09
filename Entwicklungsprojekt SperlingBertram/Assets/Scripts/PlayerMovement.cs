@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerMovement : MonoBehaviour
-{
+public class PlayerMovement : MonoBehaviour {
     
     public GameObject startingTile; 
     public GameObject currentTile;
@@ -17,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     public int action1;
     public Wuerfel wuerfel_skript;
     public int actualplayer;
-  
 
     // Zu Beginn des Spiels wird einmalig der currentTile gleich der Startposition gesetzt
     void Awake() {
@@ -60,11 +58,12 @@ public class PlayerMovement : MonoBehaviour
 
                         spielerObject.transform.position = currentTile.gameObject.transform.position;
                         spielerObject.transform.position = new Vector3(spielerObject.transform.position.x, spielerObject.transform.position.y + 0.8f, spielerObject.transform.position.z);
-                        action1 = 1;}
+                        action1 = 1;
+                    }
                 }
             }
         }
-    StartCoroutine("WuerfelSchliessen");
+        StartCoroutine("WuerfelSchliessen");
     }
 
     //0,9 Sekunden warten, bevor der Würfel deaktiviert wird

@@ -5,8 +5,7 @@ using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 
-public class Tile : MonoBehaviour
-{
+public class Tile : MonoBehaviour {
 
     public GameObject[] NextTile;
     public Collider boxCollider;

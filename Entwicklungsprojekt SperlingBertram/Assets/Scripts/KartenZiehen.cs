@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class KartenZiehen : MonoBehaviour{
+public class KartenZiehen : MonoBehaviour {
 
     // Arrays für die Spielkarten anlegen
     private Sprite[] grueneFragen;
@@ -14,9 +14,12 @@ public class KartenZiehen : MonoBehaviour{
     public Image rend;
     public int randomFrage = 0;
     public PlayerMovement playerMovement_skript;
+    public ZugBeenden zugBeenden_skript;
     public GameObject button1;
     public GameObject button2;
     public GameObject button3;
+    public GameObject buttonEreigniskarte;
+    public GameObject buttonKarteVerlassen;
 
     private void Start (){
 
@@ -32,6 +35,7 @@ public class KartenZiehen : MonoBehaviour{
     public void FrageAnzeigen(){
 
         Sprite[] kartenarray;
+        playerMovement_skript = GameObject.Find("Player"+zugBeenden_skript.actualplayer).GetComponent<PlayerMovement>();
 
         // Kartenarray durch Tag des aktuellen Cubes bestimmen
         if(playerMovement_skript.currentTile.tag == "gruen"){
@@ -51,9 +55,13 @@ public class KartenZiehen : MonoBehaviour{
         rend.gameObject.SetActive(true);
         rend.GetComponent<Image>().sprite = kartenarray[randomFrage];
 
-        // Buttons für Antwortmöglichkeiten aktivieren
-        button1.gameObject.SetActive(true);
-        button2.gameObject.SetActive(true);
-        button3.gameObject.SetActive(true);
+        if (kartenarray != ereigniskarten){
+            // Buttons für Antwortmöglichkeiten aktivieren
+            button1.gameObject.SetActive(true);
+            button2.gameObject.SetActive(true);
+            button3.gameObject.SetActive(true);
+        }
+        else{buttonKarteVerlassen.gameObject.SetActive(false);
+            buttonEreigniskarte.gameObject.SetActive(true);}
     }
 }

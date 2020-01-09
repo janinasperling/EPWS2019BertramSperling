@@ -1021,8 +1021,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1610480708}
+  m_Children: []
   m_Father: {fileID: 627089466}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2356,7 +2355,7 @@ MonoBehaviour:
   - {fileID: 1059018867}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &363593666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2763,6 +2762,131 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   action: 0
   playerMovement_skript: {fileID: 0}
+--- !u!1 &375555413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 375555414}
+  - component: {fileID: 375555417}
+  - component: {fileID: 375555416}
+  - component: {fileID: 375555415}
+  m_Layer: 5
+  m_Name: Button Karte verlassen Ereignis
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &375555414
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375555413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 435941881}
+  m_Father: {fileID: 440465476}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -8.3, y: 111.22}
+  m_SizeDelta: {x: 540, y: 541.69}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &375555415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375555413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 375555416}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1292743290}
+        m_MethodName: Ereignis
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &375555416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375555413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.58431375, g: 0.58431375, b: 0.58431375, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+--- !u!222 &375555417
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375555413}
+  m_CullTransparentMesh: 0
 --- !u!1 &385268359
 GameObject:
   m_ObjectHideFlags: 0
@@ -3326,6 +3450,83 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   action: 0
   playerMovement_skript: {fileID: 0}
+--- !u!1 &435941880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 435941881}
+  - component: {fileID: 435941883}
+  - component: {fileID: 435941882}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &435941881
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435941880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 375555414}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &435941882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435941880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &435941883
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435941880}
+  m_CullTransparentMesh: 0
 --- !u!1 &436633543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3504,6 +3705,7 @@ RectTransform:
   - {fileID: 1414924431}
   - {fileID: 401197793}
   - {fileID: 1748920325}
+  - {fileID: 375555414}
   m_Father: {fileID: 627089466}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4681,7 +4883,7 @@ MonoBehaviour:
   - {fileID: 1112626830}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &531908276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4698,7 +4900,7 @@ GameObject:
   - component: {fileID: 531908278}
   - component: {fileID: 531908282}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4807,10 +5009,10 @@ MonoBehaviour:
   spielerObject: {fileID: 531908276}
   tileArray: {fileID: 0}
   newTile: {fileID: 0}
-  wuerfel: {fileID: 0}
+  wuerfel: {fileID: 1545843470}
   gewuenschtesFeld: 0
   action1: 0
-  wuerfel_skript: {fileID: 0}
+  wuerfel_skript: {fileID: 1545843471}
   actualplayer: 0
 --- !u!114 &531908283
 MonoBehaviour:
@@ -6569,7 +6771,7 @@ MonoBehaviour:
   - {fileID: 362088653}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &765702506
 GameObject:
   m_ObjectHideFlags: 0
@@ -6805,7 +7007,7 @@ GameObject:
   - component: {fileID: 774309757}
   - component: {fileID: 774309756}
   m_Layer: 0
-  m_Name: Player 2
+  m_Name: Player2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6834,7 +7036,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 774309754}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f636829b078b44ab31e6296d7c860a, type: 3}
+  m_Script: {fileID: 11500000, guid: 1901b6c8d913a72428216fa24ca30cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startingTile: {fileID: 1875954501}
@@ -8695,7 +8897,7 @@ MonoBehaviour:
   - {fileID: 754716830}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1059018867
 GameObject:
   m_ObjectHideFlags: 0
@@ -8806,7 +9008,7 @@ MonoBehaviour:
   - {fileID: 1351026187}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1085026205
 GameObject:
   m_ObjectHideFlags: 0
@@ -9243,7 +9445,7 @@ MonoBehaviour:
   - {fileID: 1323417438}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1114744044
 GameObject:
   m_ObjectHideFlags: 0
@@ -9899,7 +10101,7 @@ MonoBehaviour:
   - {fileID: 526976943}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1196061199
 GameObject:
   m_ObjectHideFlags: 0
@@ -10867,10 +11069,9 @@ GameObject:
   - component: {fileID: 1292743284}
   - component: {fileID: 1292743286}
   - component: {fileID: 1292743283}
-  - component: {fileID: 1292743285}
   - component: {fileID: 1292743287}
-  - component: {fileID: 1292743288}
   - component: {fileID: 1292743289}
+  - component: {fileID: 1292743290}
   m_Layer: 0
   m_Name: SkriptKarte
   m_TagString: Untagged
@@ -10891,12 +11092,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kartenZiehen_skript: {fileID: 1292743286}
-  playerMovement_skript: {fileID: 1292743285}
+  player: {fileID: 0}
+  zugBeenden_skript: {fileID: 1292743289}
   rend: {fileID: 440465474}
   wuerfel: {fileID: 1545843470}
   button1: {fileID: 1414924430}
   button2: {fileID: 401197792}
   button3: {fileID: 1748920324}
+  buttonKarteVerlassen: {fileID: 2114551278}
 --- !u!4 &1292743284
 Transform:
   m_ObjectHideFlags: 0
@@ -10911,29 +11114,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1292743285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292743282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1901b6c8d913a72428216fa24ca30cca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingTile: {fileID: 1421293669}
-  currentTile: {fileID: 0}
-  checkTile: {fileID: 0}
-  spielerObject: {fileID: 531908276}
-  tileArray: {fileID: 0}
-  newTile: {fileID: 0}
-  wuerfel: {fileID: 1545843470}
-  gewuenschtesFeld: 0
-  action1: 0
-  wuerfel_skript: {fileID: 0}
-  actualplayer: 0
 --- !u!114 &1292743286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10948,10 +11128,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 440465474}
   randomFrage: 0
-  playerMovement_skript: {fileID: 1292743285}
+  player: {fileID: 0}
+  zugBeenden_skript: {fileID: 1292743289}
   button1: {fileID: 1414924430}
   button2: {fileID: 401197792}
   button3: {fileID: 1748920324}
+  buttonEreigniskarte: {fileID: 375555413}
+  buttonKarteVerlassen: {fileID: 2114551278}
 --- !u!114 &1292743287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10967,30 +11150,7 @@ MonoBehaviour:
   NextTile: []
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
---- !u!114 &1292743288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1292743282}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7f636829b078b44ab31e6296d7c860a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingTile: {fileID: 1875954501}
-  currentTile: {fileID: 0}
-  checkTile: {fileID: 0}
-  spielerObject: {fileID: 774309754}
-  tileArray: {fileID: 0}
-  newTile: {fileID: 0}
-  wuerfel: {fileID: 1545843470}
-  gewuenschtesFeld: 0
-  action1: 0
-  wuerfel_skript: {fileID: 0}
-  actualplayer: 0
+  playerMovement_skript: {fileID: 0}
 --- !u!114 &1292743289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11004,6 +11164,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actualplayer: 1
+  spieler: 2
+--- !u!114 &1292743290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292743282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71088d2838c4c5e4aa32801c6d67941a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wuerfel: {fileID: 1545843470}
+  rend: {fileID: 440465474}
+  button: {fileID: 375555413}
+  kartenZiehen_skript: {fileID: 1292743286}
+  zugBeenden_skript: {fileID: 1292743289}
+  playerMovement_skript: {fileID: 0}
+  player: {fileID: 0}
+  startingTile: {fileID: 0}
+  spielerObject: {fileID: 0}
 --- !u!1 &1298965762
 GameObject:
   m_ObjectHideFlags: 0
@@ -11222,7 +11404,7 @@ MonoBehaviour:
   - {fileID: 1875954501}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1337468305
 GameObject:
   m_ObjectHideFlags: 0
@@ -12325,7 +12507,7 @@ MonoBehaviour:
   - {fileID: 526976943}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1422289998
 GameObject:
   m_ObjectHideFlags: 0
@@ -13486,8 +13668,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finaleSeite: 0
-  playerMovement_skript: {fileID: 1292743285}
-  player2Movement_skript: {fileID: 774309756}
+  player: {fileID: 0}
+  playerMovement_skript: {fileID: 0}
   zugBeenden_skript: {fileID: 1292743289}
 --- !u!65 &1545843472
 BoxCollider:
@@ -14195,85 +14377,6 @@ MonoBehaviour:
   boxCollider: {fileID: 0}
   action: 0
   playerMovement_skript: {fileID: 0}
---- !u!1 &1610480707
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1610480708}
-  - component: {fileID: 1610480710}
-  - component: {fileID: 1610480709}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1610480708
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610480707}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 186664954}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1610480709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610480707}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Zug beenden
-
-'
---- !u!222 &1610480710
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1610480707}
-  m_CullTransparentMesh: 0
 --- !u!1 &1644625411
 GameObject:
   m_ObjectHideFlags: 0
@@ -16390,7 +16493,7 @@ MonoBehaviour:
   - {fileID: 1323417438}
   boxCollider: {fileID: 0}
   action: 0
-  playerMovement_skript: {fileID: 1292743285}
+  playerMovement_skript: {fileID: 0}
 --- !u!1 &1885984564
 GameObject:
   m_ObjectHideFlags: 0
