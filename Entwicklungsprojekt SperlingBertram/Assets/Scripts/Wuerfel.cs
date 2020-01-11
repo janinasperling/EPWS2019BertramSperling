@@ -10,7 +10,7 @@ public class Wuerfel : MonoBehaviour{
     private SpriteRenderer rend;
     public int finaleSeite = 0;
     public PlayerMovement playerMovement_skript;
-    public ZugBeenden zugBeenden_skript;
+    public SpielerCount spielerCount_skript;
 
     private void Start (){
         rend = GetComponent<SpriteRenderer>();
@@ -45,7 +45,7 @@ public class Wuerfel : MonoBehaviour{
 
         // actualplayer als abfrage, welche spielfigur bewegt werden soll
         
-            playerMovement_skript = GameObject.Find("Player"+zugBeenden_skript.actualplayer).GetComponent<PlayerMovement>();
+            playerMovement_skript = GameObject.Find("Player"+spielerCount_skript.actualplayer).GetComponent<PlayerMovement>();
             playerMovement_skript.MovePlayer(finaleSeite);
     }
 }

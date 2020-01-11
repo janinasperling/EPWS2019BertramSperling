@@ -14,7 +14,7 @@ public class KartenZiehen : MonoBehaviour {
     public Image rend;
     public int randomFrage = 0;
     public PlayerMovement playerMovement_skript;
-    public ZugBeenden zugBeenden_skript;
+    public SpielerCount spielerCount_skript;
     public GameObject button1;
     public GameObject button2;
     public GameObject button3;
@@ -35,7 +35,7 @@ public class KartenZiehen : MonoBehaviour {
     public void FrageAnzeigen(){
 
         Sprite[] kartenarray;
-        playerMovement_skript = GameObject.Find("Player"+zugBeenden_skript.actualplayer).GetComponent<PlayerMovement>();
+        playerMovement_skript = GameObject.Find("Player"+spielerCount_skript.actualplayer).GetComponent<PlayerMovement>();
 
         // Kartenarray durch Tag des aktuellen Cubes bestimmen
         if(playerMovement_skript.currentTile.tag == "gruen"){

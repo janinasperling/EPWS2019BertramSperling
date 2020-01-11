@@ -7,7 +7,7 @@ public class AntwortAnzeigen : MonoBehaviour {
 
     public KartenZiehen kartenZiehen_skript;
     public PlayerMovement playerMovement_skript;
-    public ZugBeenden zugBeenden_skript;
+    public SpielerCount spielerCount_skript;
     public Image rend;
     public Image wuerfel;
     public GameObject button1;
@@ -26,7 +26,7 @@ public class AntwortAnzeigen : MonoBehaviour {
     
     public string KartenarrayBestimmen(){
 
-        playerMovement_skript = GameObject.Find("Player"+zugBeenden_skript.actualplayer).GetComponent<PlayerMovement>();
+        playerMovement_skript = GameObject.Find("Player"+spielerCount_skript.actualplayer).GetComponent<PlayerMovement>();
 
         // String für Karten abhängig von Tag des aktuellen Cubes bestimmen
         if(playerMovement_skript.currentTile.tag == "gruen"){
@@ -54,7 +54,8 @@ public class AntwortAnzeigen : MonoBehaviour {
             rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
             wuerfel.gameObject.SetActive(true);
         }
-        else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
+        else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");
+            spielerCount_skript.NaechsterSpieler();}
 
         ButtonsDeaktivieren();
         buttonKarteVerlassen.gameObject.SetActive(true);
@@ -69,7 +70,8 @@ public class AntwortAnzeigen : MonoBehaviour {
             rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
             wuerfel.gameObject.SetActive(true);
         }
-        else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
+        else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");
+            spielerCount_skript.NaechsterSpieler();}
 
         ButtonsDeaktivieren();
         buttonKarteVerlassen.gameObject.SetActive(true);
@@ -84,7 +86,8 @@ public class AntwortAnzeigen : MonoBehaviour {
             rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".1");
             wuerfel.gameObject.SetActive(true);
         }
-        else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");}
+        else{rend.GetComponent<Image>().sprite = Resources.Load<Sprite>("Karten/"+bestimmtesKartenarray+"/"+randomZahl+".2");
+            spielerCount_skript.NaechsterSpieler();}
 
         ButtonsDeaktivieren();
         buttonKarteVerlassen.gameObject.SetActive(true);

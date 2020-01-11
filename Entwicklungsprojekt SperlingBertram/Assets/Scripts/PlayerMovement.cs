@@ -12,10 +12,9 @@ public class PlayerMovement : MonoBehaviour {
     public Tile tileArray;
     public Tile newTile;
     public Image wuerfel;
-    public int gewuenschtesFeld;
+    //public int gewuenschtesFeld;
     public int action1;
-    public Wuerfel wuerfel_skript;
-    public int actualplayer;
+    public SpielerCount spielerCount_skript;
 
     // Zu Beginn des Spiels wird einmalig der currentTile gleich der Startposition gesetzt
     void Awake() {
@@ -64,6 +63,8 @@ public class PlayerMovement : MonoBehaviour {
             }
         }
         StartCoroutine("WuerfelSchliessen");
+        spielerCount_skript.NaechsterSpieler();
+
     }
 
     //0,9 Sekunden warten, bevor der Würfel deaktiviert wird
