@@ -11,12 +11,9 @@ public class SpielerCount : MonoBehaviour {
 
     void Awake(){
         spieler = PlayerPrefs.GetInt("spieleranzahl");
-        //Debug.Log(spieler);
+
         for(int i=4; i>spieler; i--){
-            //Debug.Log(i);
-                //Debug.Log(player);
               player = GameObject.Find("Player"+i);
-              //Debug.Log(player.name);
               player.SetActive(false);
         }
     }
@@ -26,7 +23,6 @@ public class SpielerCount : MonoBehaviour {
             actualplayer++;
         }
         else{actualplayer = 1;}
-        Debug.Log(actualplayer);
        } 
 }
     

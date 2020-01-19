@@ -11,21 +11,17 @@ public class Tile : MonoBehaviour {
     public Collider boxCollider;
     public int action;
     public PlayerMovement playerMovement_skript;
-    //public Material[] material;
-    //Renderer rend; 
-
-    /*void Start(){
-        rend = GetComponent<Renderer>();
-        rend.enabled = true;
-        rend.sharedMaterial = material[0];
-    }*/
+    public Material[] material;
+    Renderer rend; 
 
     // Die Collider der angrenzenden Felder werden aktiviert und somit klickbar
+    // Zum Highlighten der Felder wird ein anderes Material ausgewählt
     public void ColliderAn() {
         foreach(GameObject o in NextTile) {
             boxCollider = o.GetComponent<Collider>();
             boxCollider.enabled = true;
-           // o.GetComponent<Renderer>().sharedMaterial = material[1];
+            rend = o.GetComponent<Renderer>();
+            rend.material = o.GetComponent<Tile>().material[1];
         }
     }
 
@@ -33,7 +29,8 @@ public class Tile : MonoBehaviour {
         foreach(GameObject o in NextTile) {
             boxCollider = o.GetComponent<Collider>();
             boxCollider.enabled = false;
-           // o.GetComponent<Renderer>().sharedMaterial = material[0];
+          rend = o.GetComponent<Renderer>();
+          rend.material = o.GetComponent<Tile>().material[0];
         }
     }
 

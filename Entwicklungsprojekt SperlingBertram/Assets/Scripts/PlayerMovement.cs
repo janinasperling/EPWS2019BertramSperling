@@ -12,7 +12,6 @@ public class PlayerMovement : MonoBehaviour {
     public Tile tileArray;
     public Tile newTile;
     public Image wuerfel;
-    //public int gewuenschtesFeld;
     public int action1;
     public SpielerCount spielerCount_skript;
 
@@ -67,10 +66,10 @@ public class PlayerMovement : MonoBehaviour {
 
     }
 
-    //0,9 Sekunden warten, bevor der Würfel deaktiviert wird
+    //0,6 Sekunden warten, bevor der Würfel deaktiviert wird
     private IEnumerator WuerfelSchliessen() {
 
-        yield return new WaitForSeconds(0.9f);
+        yield return new WaitForSeconds(0.6f);
         wuerfel.gameObject.SetActive(false);
     }
 }
