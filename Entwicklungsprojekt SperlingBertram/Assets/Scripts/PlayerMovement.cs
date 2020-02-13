@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour {
     public Image wuerfel;
     public int action1;
     public SpielerCount spielerCount_skript;
+    public SpielBeenden spielBeenden_skript;
 
     // Zu Beginn des Spiels wird einmalig der currentTile gleich der Startposition gesetzt
     void Awake() {
@@ -32,6 +33,10 @@ public class PlayerMovement : MonoBehaviour {
 
         // schleife wird gemäß der Würfelzahl durchlaufen 
         for (int i = moves; i > 0; i--) {
+
+            if(currentTile == GameObject.Find("Cube - Visual (221)")){
+                spielBeenden_skript.Gewonnen();
+            }
               
             tileArray.ColliderAn();
             // letzte gespeicherte Aktion wird gelöscht
